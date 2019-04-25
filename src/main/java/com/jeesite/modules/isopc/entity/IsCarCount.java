@@ -157,5 +157,19 @@ public class IsCarCount extends DataEntity<IsCarCount> {
 	public void setWorkTime(Long workTime) {
 		this.workTime = workTime;
 	}
-	
+
+	public IsCarCount(String deviceId, String deviceName, String countDate, Integer errCount, Integer moveerrCount, Integer updownerrCount, Integer turnerrCount, Double moveMileage, Integer updownCount, Integer turnCount, Integer rechangeCount, Long workTime) {
+		this.deviceId = deviceId;
+		this.deviceName = deviceName;
+		this.countDate = countDate;
+		this.errCount = errCount;
+		this.moveerrCount = moveerrCount;
+		this.updownerrCount = updownerrCount;
+		this.turnerrCount = turnerrCount;
+		this.moveMileage = moveMileage;
+		this.updownCount = updownCount;
+		this.turnCount = turnCount;
+		this.rechangeCount = rechangeCount;
+		this.workTime = workTime;
+	}
 }
